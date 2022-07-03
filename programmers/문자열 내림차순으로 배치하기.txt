@@ -1,0 +1,10 @@
+def solution(s):
+    array=[]
+    string=''
+    for i in range(len(s)):
+        array.append(s[i])
+    array.sort(reverse=1)
+    for i in range(len(array)):
+        string+=array[i]
+    answer = string
+    return answer
